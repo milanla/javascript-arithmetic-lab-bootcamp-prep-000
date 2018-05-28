@@ -44,10 +44,5 @@ var a = Math.floor(Math.random() * 1000)
 var b = Math.floor(Math.random() * 1000)
 
 function makeInt(a) {
-  if (a.toString() === a) {
   return parseInt(a.toString(), 10)
   } 
-  if (a.toString() === 0x2328) {
-  return 
-  }
-}
