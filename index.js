@@ -50,5 +50,5 @@ function makeInt(a) {
 var a = 2.222
 
 function preserveDecimal(a) {
-  return 
+  return parseFloat(a.toString())
 }
