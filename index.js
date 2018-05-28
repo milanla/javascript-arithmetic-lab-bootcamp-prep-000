@@ -51,5 +51,5 @@ var a = Math.floor(Math.random() * 1000)
 var b = Math.floor(Math.random() * 1000)
 
 function makeInt(a) {
-  if isNaN(makeInt())
+  if (isNaN(makeInt(a.toString(), 10)) === true)
 }
