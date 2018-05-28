@@ -45,4 +45,10 @@ var b = Math.floor(Math.random() * 1000)
 
 function makeInt(a) {
   return parseInt(a.toString(), 10)
-  } 
+}
+
+var a = 2.222
+
+function preserveDecimal(a) {
+  return 
+}
