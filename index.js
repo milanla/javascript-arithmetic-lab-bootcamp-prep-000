@@ -47,5 +47,7 @@ function makeInt(a) {
   if (a.toString() === a) {
   return parseInt(a.toString(), 10)
   } 
-  if 
+  if (a.toString() === 0x2328) {
+  return 
+  }
 }
