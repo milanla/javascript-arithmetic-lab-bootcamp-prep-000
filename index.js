@@ -58,5 +58,5 @@ var a = Math.floor(Math.random() * 1000)
 var b = Math.floor(Math.random() * 1000)
 
 function isNaN() {
-  if makeInt('sldkjflksjf')
+  return makeInt(sldkjflksjf.toString() === true)
 }
